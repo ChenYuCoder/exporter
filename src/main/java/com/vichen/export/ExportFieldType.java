@@ -17,7 +17,7 @@ public enum ExportFieldType {
   Number,
   /**
    * 日期
-   * 数据支持：long,Date,LocalDate
+   * 数据支持：long,Date,LocalDate,LocalDateTime
    * 输出：2020-02-02
    */
   Date,

@@ -85,9 +85,7 @@ public class ExportUtil<T> {
       }
     }
 
-    exporter.export(sheetName, columnList, list, file);
-
-    return true;
+    return exporter.export(sheetName, columnList, list, file);
   }
 
   public <S extends T> boolean export(List<ExportColumn> exportColumnList, String sheetName,
@@ -107,9 +105,8 @@ public class ExportUtil<T> {
       }
     }
 
-    exporter.export(sheetName, exportColumnList, list, file);
+    return exporter.export(sheetName, exportColumnList, list, file);
 
-    return true;
   }
 
 }
