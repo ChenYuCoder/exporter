@@ -3,12 +3,10 @@
 ## 类描述
 
 ### com.vichen.export
-* @ExportHeaderAnnotation：导出页注解
-> 无该注解类无法导出
+* @ExportHeaderAnnotation：导出页注解，无该注解类无法导出
   * sheet：导出页名称，不设置则为类名称
-* @ExportFieldAnnotation：导出属性注解
-
-> 无该注解属性不参与导出
+  
+* @ExportFieldAnnotation：导出属性注解，无该注解属性不参与导出
   * header：导出列名称
   * type：导出目标类型，见ExportFieldType
 
